@@ -6,7 +6,7 @@
  * 4. 返回交易对的价格
  */
 import { ethers } from 'ethers'
-import { toReadableAmount, fromReadableAmount } from './conversion'
+import { toReadableAmount, fromReadableAmount } from './utils'
 import { getProvider } from './providers'
 import Quoter from '@uniswap/v3-periphery/artifacts/contracts/lens/Quoter.sol/Quoter.json'
 import IUniswapV3PoolABI from '@uniswap/v3-core/artifacts/contracts/interfaces/IUniswapV3Pool.sol/IUniswapV3Pool.json'
