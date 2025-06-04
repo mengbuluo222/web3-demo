@@ -1,5 +1,6 @@
 import NextAuth from "next-auth"
 import GitHubProvider from "next-auth/providers/github"
+import { connection } from 'next/server'
 
 // 确保环境变量存在，否则抛出错误或合理处理
 const githubId = process.env.GITHUB_ID
